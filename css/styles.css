@@ -1,0 +1,17 @@
+@import url(bootstrap.css);
+@import url(bootstrap.min.css);
+*/** {
+  color: black;
+}
+#intro {
+  color: maroon;
+  font-family: sans-serif;
+}
+.row {
+  background-color: burlywood;
+  font-size: 20px;
+}
+
+body {
+  color: yellowgreen;
+}

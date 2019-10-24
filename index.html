@@ -5,42 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>INDEPENDENT PROJECT 2</title>
-    <link rel="stylesheet" href="css/styles.css" type />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="js/script.js" />
-  </head>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/js/script.js"> 
+</head>
   <body>
     <div class="container">
       <div class="row">
-        <h1>AKAN NAMES</h1>
-        <P
+       <div id="intro"><strong>AKAN NAMES</strong></div> 
+        <hr/>
+       <p
           >Akan people of Ghana frequently name their children after the day of
           the week they were born and the order in which they were born. These
           "day names" have further meanings concerning the soul and character of
           the person. Middle names have considerably more variety and can refer
-          to their birth order, twin status, or an ancestor's middle name.</P
-        >
+          to their birth order, twin status, or an ancestor's middle name.</p >
       </div>
       <div class="names">
         <div class="row">
-          <div class="col-md-6 col-sm-6">
+          <div class="col-md-6 col-xs-6">
             <h2>Birth Details</h2>
             <form>
-                    <div class="form-group">
-                            <label for="exampleInputEmail1">Date of Birth </label>
-                            <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted"></small>
-                          </div>
-              
+              <div class="form-group">
+                <label for="date of birth">Date of Birth </label>
+                <input
+                  type="date"
+                  class="form-control"
+                  id="dob"
+                  aria-describedby="Dob"
+                  placeholder="Enter your date of birth"
+                />
+              </div>
             </form>
           </div>
           <div class="gender">
-            <div class="col-md-6">
               <h2>Gender</h2>
-              <form action="">
-                    <input type="radio" name="gender" value="male" > Male<br><br>
-                    <input type="radio" name="gender" value="female"> Female<br><br>
-              </form>
+              <label action="">
+                <input type="radio" name="gender" value="male" />Male
+                <input type="radio" name="gender" value="female" />Female
+              </label>
+            </div>
+        <div class="row">
+          <div class="button">
+            <div class="col-md-8 col-md-offset-4">
+              <div>
+                <button type="buttom">submit</button>
+              </div>
             </div>
           </div>
         </div>
