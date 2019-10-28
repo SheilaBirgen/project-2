@@ -1,7 +1,12 @@
 @import url(bootstrap.css);
 @import url(bootstrap.min.css);
-#intro {
-  text-align: center;
+
+#intro h1{
+  text-align: ;
+}
+ 
+#intro{
+  justify-content: center;
   border-color: yellow;
   padding: 20px;
   color: maroon;
