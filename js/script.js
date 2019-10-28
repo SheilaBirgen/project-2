@@ -1,20 +1,20 @@
 var maleAkanNames = [
-  "Kwame",
   "Kwasi",
   "Kwadwo",
   "Kwabena",
   "Kwaku",
   "Yaw",
-  "Kofi"
+  "Kofi",
+  "Kwame"
 ];
 var femaleAkanNames = [
-  "Ama",
   "Akosua",
   "Adwoa",
   "Abenaa",
   "Akua",
   "Yaa",
-  "Afua"
+  "Afua",
+  "Ama"
 ];
 var daysofTheWeek = [
   "Sunday",
