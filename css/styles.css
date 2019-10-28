@@ -1,10 +1,5 @@
 @import url(bootstrap.css);
-@import url(bootstrap.min.css);
-
-#intro h1{
-  text-align: ;
-}
- 
+@import url(bootstrap.min.css); 
 #intro{
   justify-content: center;
   border-color: yellow;
