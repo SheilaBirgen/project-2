@@ -1,14 +1,16 @@
 # AKAN NAMES WEBPAGE.
 
-## Name
+## Project author
 Sheila Birgen J.
+## Screenshot
+<img src="images/screenshotof site.png>
 
 ## Description
 This is a webpage that details about me as a software developer,My educational background and my hobbies.
 ## Deploying link
 
 ## BDD
-On visiting the website the home page displays with my name on it and a brief introduction on the Akan naming.You'll be required to enter your birth details and your gender in order to know your Akan names
+On visiting the website the home page displays a form which has a brief introduction on the Akan naming.You'll be required to enter your birth details and your gender in order to know your Akan name and the day you were born.
 ## Technologies used
     HTML
     CSS
