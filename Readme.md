@@ -6,7 +6,7 @@ Sheila Birgen J.
 
 ## Screenshot
 
-<img src="images/screenshot.png>"
+<img src="images/screenshot.png">
 
 ## Description
 
