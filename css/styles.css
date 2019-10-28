@@ -28,10 +28,10 @@ form {
 }
 .button {
   position: absolute;
-  left: 75vh; 
+  left: 75vh;
   bottom: auto;
 }
 body {
-  background-color: lightslategray;
+  background-image: url(/images/background.jpeg);
   width: 80%;
 }
