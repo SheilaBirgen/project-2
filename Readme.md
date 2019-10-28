@@ -13,6 +13,7 @@ Sheila Birgen J.
 This is a webpage that details about me as a software developer,My educational background and my hobbies.
 
 ## Deploying link
+ https://sheilabirgen.github.io/project-2/.
 
 ## BDD
 
