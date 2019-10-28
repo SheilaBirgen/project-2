@@ -1,8 +1,9 @@
 @import url(bootstrap.css);
 @import url(bootstrap.min.css);
-#intro h1 {
+#intro {
   text-align: center;
-  padding: 10px 10px 10px 150px;
+  border-color: yellow;
+  padding: 20px;
   color: maroon;
   font-size: 20px;
   font-family: sans-serif;
@@ -32,5 +33,5 @@ form {
   bottom: auto;
 }
 body {
-  background-image: url(/images/background.jpeg);
+  background-image: url(/images/background2.jpeg);
 }
