@@ -38,6 +38,6 @@ body {
 .footer{
   text-align: center;
 	font-size: 20px;
-	padding: 10px;background-color: lightslategrey;
-}
+  padding: 10px;
+  background-color: lightgrey;
 }
