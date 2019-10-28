@@ -1,27 +1,40 @@
 # AKAN NAMES WEBPAGE.
 
 ## Project author
+
 Sheila Birgen J.
+
 ## Screenshot
-<img src="images/screenshotof site.png>
+
+<img src="images/screenshot.png>
 
 ## Description
+
 This is a webpage that details about me as a software developer,My educational background and my hobbies.
+
 ## Deploying link
 
 ## BDD
+
 On visiting the website the home page displays a form which has a brief introduction on the Akan naming.You'll be required to enter your birth details and your gender in order to know your Akan name and the day you were born.
+
 ## Technologies used
+
     HTML
     CSS
     JAVASCRIPT
     BOOTSTRAP
 
 ## Known Bugs
+
 As at now there is no known bug
+
 ## Support and contact details
+
 For any comment question or feedback reach me through this email jeronobergen@gmail.com
+
 ## Licence
+
 MIT License
 
 Copyright (c) 2019 SheilaBirgen
