@@ -18,32 +18,43 @@ function akanName() {
     "Afua"
   ];
   var daysofTheWeek = [
-    "sunday",
-    "monday",
-    "teusday",
-    "wednesday",
-    "thursday",
-    "friday",
-    "saturday"
+    "Sunday",
+    "Monday",
+    "Teusday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
   ];
 
-  var year = parseInt(document.getElementbyId(yy).value);
-  var month = parseInt(document.getElementbyId(mm).value);
-  var dob = parseInt(document.getElementbyId(dob).value);
+  var yy = parseInt(document.getElementbyId("yy").value);
+  var mm = parseInt(document.getElementbyId("mm").value);
+  var dd = parseInt(document.getElementbyId("dd").value);
+  var male = document.getElementById("male");
+  var female = document.getElementById("female");
 
-  var birthdate = new Date(dob + "/" + mm + "/" + yy + "/").getDay;
-
-  if (dob <= 1 || dob > 31) {
+  if (dd < 1 || dd > 31) {
     alert("Enter a valid date");
-  } else if (mm <= 1 || mm > 12) {
+  } else if (mm < 1 || mm > 12) {
     alert("Enter a valid month");
-  }
+  } else yy <= 1500 || yy > 2019;
 
-  if ((male.checked = true)) {
-    alert("your born on" + birthdate + "and your Akan name is" + maleAkanNames);
-  } else if ((female.checked = true)) {
+  var birthdate = new Date(dd + "/" + mm + "/" + yy);
+  var day = birthdate.getDay();
+  console.log(day);
+  if (male.checked == true) {
     alert(
-      "your born on" + birthdate + "and your Akan name is" + femaleAkanNames
+      "you were born on" +
+        daysofTheWeek[day] +
+        "and your Akan name is" +
+        maleAkanNames[day]
+    );
+  } else if (female.checked == true) {
+    alert(
+      "you were born on" +
+        daysofTheWeek[day] +
+        "and your Akan name is" +
+        femaleAkanNames[day]
     );
   } else {
     alert("An error occured");

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>INDEPENDENT PROJECT 2</title>
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/js/script.js" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js"></script>
   </head>
   <body>
     <div class="container">
@@ -27,19 +28,44 @@
       <div class="row flex-column justify-content-center" id="form">
         <form>
           <h3><em>Please fill in your Details</em></h3>
-          <label><small id="emailHelp" class="form-text text-muted">please fill in your birth information .</small></label>
+          <label
+            ><small id="emailHelp" class="form-text text-muted"
+              >please fill in your birth information .</small
+            ></label
+          >
           <div class="form-group">
-              <input type="number" id="dob" placeholder="dd"required><br><br>
-              <input type="number"  id="mm" placeholder="mm" required><br><br>
-                <input type="number" id="yy"placeholder ="yy" required><br><br>
-              </div>
+            <input
+              type="number"
+              id="dd"
+              placeholder="dd"
+              required
+            /><br /><br />
+            <input
+              type="number"
+              id="mm"
+              placeholder="mm"
+              required
+            /><br /><br />
+            <input
+              type="number"
+              id="yy"
+              placeholder="yy"
+              required
+            /><br /><br />
+          </div>
           <div>
-            <label for="gender">Gender</label><br>
+            <label for="gender">Gender</label><br />
             <input type="radio" name="gender" value="male" /> Male<br />
             <input type="radio" name="gender" value="female" /> Female<br />
           </div>
           <div class="button">
-            <button type="button" onclick="akanName" class="btn btn-secondary">Submit</button>
+            <button
+              type="submit"
+              onclick=akanName()
+              class="btn btn-secondary"
+            >
+              Submit
+            </button>
           </div>
         </form>
       </div>
