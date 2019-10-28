@@ -29,16 +29,9 @@
           <h3><em>Please fill in your Details</em></h3>
           <label><small id="emailHelp" class="form-text text-muted">please fill in your birth information .</small></label>
           <div class="form-group">
-              <label for="exampleInputEmail1">Day</label>
-              <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="dd"options="required"/>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Month</label>
-              <input type="number" class="form-control" id="exampleInputPassword1" placeholder="MM" options="required">
-            </div>
-            <div class="form-group">
-                <label for="year">year</label>
-                <input type="numbe" class="form-control" placeholder ="YY" required>
+              <input type="number" id="dob" placeholder="dd"required><br><br>
+              <input type="number"  id="mm" placeholder="mm" required><br><br>
+                <input type="number" id="yy"placeholder ="yy" required><br><br>
               </div>
           <div>
             <label for="gender">Gender</label><br>
@@ -46,7 +39,7 @@
             <input type="radio" name="gender" value="female" /> Female<br />
           </div>
           <div class="button">
-            <button type="button" class="btn btn-secondary">Submit</button>
+            <button type="button" onclick="akanName" class="btn btn-secondary">Submit</button>
           </div>
         </form>
       </div>
