@@ -42,16 +42,16 @@ function akanName() {
   var day = birthDate.getDay();
   if (male.checked == true) {
     alert(
-      "you were born on" +
+      "you were born on " +
         daysofTheWeek[day] +
-        "and your Akan name is" +
+        " and your Akan name is " +
         maleAkanNames[day]
     );
   } else if (female.checked == true) {
     alert(
-      "you were born on" +
+      "you were born on " +
         daysofTheWeek[day] +
-        "and your Akan name is" +
+        " and your Akan name is " +
         femaleAkanNames[day]
     );
   }

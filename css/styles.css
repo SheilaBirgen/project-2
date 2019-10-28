@@ -7,15 +7,15 @@
   font-size: 20px;
   font-family: sans-serif;
 }
-.container p {
+.mycontainer p {
   text-align: center;
 }
-.container {
+.mycontainer {
   width: 700px;
-  background-color: whitesmoke;
   height: 120vh;
   margin: auto;
   padding: 40px;
+  background-color: seashell;
 }
 form h2 {
   text-align: center;
@@ -33,5 +33,4 @@ form {
 }
 body {
   background-image: url(/images/background.jpeg);
-  width: 80%;
 }
