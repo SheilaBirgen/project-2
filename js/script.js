@@ -40,5 +40,13 @@ function akanName() {
     alert("Enter a valid month");
   }
 
-  
+  if ((male.checked = true)) {
+    alert("your born on" + birthdate + "and your Akan name is" + maleAkanNames);
+  } else if ((female.checked = true)) {
+    alert(
+      "your born on" + birthdate + "and your Akan name is" + femaleAkanNames
+    );
+  } else {
+    alert("An error occured");
+  }
 }
