@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>INDEPENDENT PROJECT 2</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -31,47 +37,65 @@
             ><small id="emailHelp" class="form-text text-muted"
               >please fill in your birth information .</small
             ></label
-          >
+          ><br />
+          <label for="">Day</label>
           <div class="form-group">
             <input
               type="number"
               class="form-control"
-              id="dd"
-              placeholder="dd"
+              id="day"
+              name="day"
+              placeholder="example 3"
               min="1"
               max="31"
               required
-            /><br />
+            />
+            <label for="">Month</label>
             <input
               type="number"
               class="form-control"
-              id="mm"
-              placeholder="mm"
-              min="0"
+              id="month"
+              name="month"
+              placeholder="example 7"
+              min="1"
               max="12"
               required
-            /><br />
+            />
+            <label for="">Year</label>
             <input
               type="number"
               class="form-control"
-              id="yy"
-              placeholder="yy"
+              id="year"
+              name="day"
+              placeholder="example 2017"
               min="1900"
-              max="2019"
+              max="2020"
               required
-            /><br />
+            />
           </div>
           <div>
             <label for="gender">Please select select your Gender</label><br />
             <input type="radio" name="gender" value="male" id="male" />
             Male<br />
             <input type="radio" name="gender" value="female" id="female" />
-            Female<br />
+            Female<br /><br>
           </div>
-          <div class="button ">
-            <a href="#" onclick="akanName()" class="btn btn-primary">
-              Submit
-            </a>
+          <button
+            type="reset"
+            class="btn btn-primary mybtn"
+            value="reset"
+            onclick="refreshPage()"
+          >
+            Reset
+          </button>
+          <button
+            type="Submit"
+            class="btn btn-primary mybtn"
+            value="Submit"
+            onclick="akanName()"
+          >
+            Submit
+          </button>
           </div>
         </form>
       </div>

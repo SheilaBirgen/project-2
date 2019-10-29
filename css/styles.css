@@ -1,6 +1,4 @@
-@import url(bootstrap.css);
-@import url(bootstrap.min.css); 
-#intro{
+#intro {
   justify-content: center;
   border-color: yellow;
   padding: 20px;
@@ -35,9 +33,10 @@ form {
 body {
   background-image: url(../images/background2.jpeg);
 }
-.footer{
+.footer {
   text-align: center;
-	font-size: 20px;
+  font-size: 20px;
   padding: 10px;
   background-color: lightgrey;
 }
+
